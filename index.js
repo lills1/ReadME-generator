@@ -15,36 +15,41 @@ function init() {
         .prompt([
             {
                 type: 'input',
-                message: 'What is the title of your project?',
+                message: 'What is the title of your repo?',
                 name: 'title',
             },
 
             {
                 type: 'input',
-                message: 'How would you describe your project',
+                message: 'Please give a description of your repo',
                 name: 'description',
             },
             {
                 type: 'input',
-                message: 'How do you use install',
+                message: 'What does the user need to know about using this repo?',
+                name: 'usage'
+            },
+            {
+                type: 'input',
+                message: 'How does the user install the repo?',
                 name: 'installation'
             },
             {
                 type: 'input',
-                message: 'How does one contribute',
+                message: 'What does the user need to know about contributing?',
                 name: 'contribution',
 
             },
             {
                 type: 'list',
-                message: 'Which license do you want to use',
+                message: 'Which license do you want to use?',
                 name: 'license',
                 choices: ['MIT', 'Mozilla', 'IBM', 'Apache']
 
             },
             {
                 type: 'input',
-                message: 'PLease list how to test',
+                message: 'How can the user implement testing?',
                 name: 'tests',
             },
             {

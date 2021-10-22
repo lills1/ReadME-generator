@@ -39,15 +39,15 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-${data.installation}"
+     ${data.installation}
   ## Usage
   ${data.usage}
-  ## Contribution
-  ${data.contribution}
   ## License
   ${data.license}
+  ## Contribution
+  ${data.contribution}
   ## Tests
-  ${data.tests}
+    ${data.tests}
   ## Questions
 <a href= "https://github.com/${data.github}"> github </a>
 <br>
